@@ -1,0 +1,26 @@
+nav ul{
+    list-style-type: none;
+    padding:0;
+    margin: 0;
+}
+
+nav li{
+border: 1px solid #000000;
+width: 200px;
+ margin: 10px;
+ padding: 0px;
+ background-color: yellow;
+ text-align: center;
+ display: inline-block;
+}
+
+nav li a {
+    color: #8613f2;
+    display: block;
+    padding:10px;
+    text-decoration: none;
+  }
+
+  nav li a:hover{
+    background-color: #ff0000;
+  }
