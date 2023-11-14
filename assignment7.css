@@ -9,7 +9,7 @@ header {
       font-weight: normal;
     }
   nav {
-    grid-column: span 1;
+    grid-column: span 6;
   }
   
   main {
@@ -21,11 +21,22 @@ header {
     margin: 0;
     padding: 0;
   }
+  .dropshadowbox {
+    padding: 10px;
+    margin: 20px;
+    width: 250px;
+    border: 1px solid rgb(255, 255, 255)787;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 10px #999999; /* x, y, blur, color */
+  }
   
   nav li {
     width: 200px;
+    display: inline-block
   }
-
+#side{
+  grid-column: span 2;
+}
   body {
     background-image: url("Space-Background-Image-8.jpg");
   }
