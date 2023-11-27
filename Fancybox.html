@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/
+	<meta charset="UTF-8">
+	<title>Nicks Portfolio</title>
+	<link href="MockupProject2.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<h1>Nicks Website</h1>
+		</header>
+		<img class= mainimg src="Space-Background-Image-8.jpg" alt="Space">
+		<nav class="dropshadowbox">
+			<ul >
+				<li><a href="#">Web Design</a></li>
+				<li><a href="#">Video</a></li>
+				<li><a href="#">Audio</a></li>
+				<li><a href="#">Game Design</a></li>
+				<li><a href="https://illinoisstate.edu" target="_blank">Illinois State University</a></li>
+                <a href="spike.jpg" data-fancybox="gallery" data-caption="spike">
+                    <img src="afd973229d89989f2b92e7976f599ac8.jpg">
+                  </a>
+                  <a href="icecream.jpg" data-fancybox="gallery" data-caption="Ice Cream">
+                    <img src="icecream_thumb.jpg">
+                  </a>
+                  <a href="water.jpg" data-fancybox="gallery" data-caption="Water">
+                    <img src="water_thumb.jpg">
+                  </a>
+			</ul>
+		</nav>
+		<audio controls autobuffer autoplay >
+			<source src="TestBeat.mp3" type="audio/mpeg">
+		  </audio>
+		<main>
+			<article>
+				<h2>About Me</h2>
+				<img src="117974.jpg" alt="117974.jpg">
+				<p>My name is Nick Calabrese, i am 19 years old and i go to ISU University and am in my second year here. Im majoring in Creative technologies. I hope that this is enough information about</p>
+			</article>
+            <script>   
+                Fancybox.bind("[data-fancybox]", {});
+                
+              const container = document.getElementById("myCarousel");
+              const options = { infinite: false };
+              
+              new Carousel(container, options);
+             </script>
+			
+		</main>
+		<footer>
+			<p>Illinois State University</p>
+		</footer>
+	</div>
+</body>
+</html>
