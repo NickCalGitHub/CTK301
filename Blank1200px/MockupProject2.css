@@ -1,0 +1,124 @@
+body {
+    background-color: #999999;
+  }
+  
+  #wrapper {
+    margin: 24px auto;
+    width: 1200px;
+    border: 1px solid black;
+    padding: 24px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+  }
+  
+  header {
+    grid-column: span 12;
+    color: white;
+    background-color: #d505e8;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+  }
+  
+  .mainimg {
+    grid-column: span 8;
+    width: 100%;
+  }
+  
+  nav {
+    grid-column: span 4;
+  }
+  
+  nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    color: white;
+    background-color: #d505e8;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+   
+    margin: 24px 0;
+    
+  }
+  nav li a:hover{
+    background-color: #8102bb;
+  }
+  nav li a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 24px;
+    display: block;
+  }
+  
+  .dropshadowbox {
+    padding: 10px;
+    margin: 20px;
+    width: 250px;
+    border: 1px solid rgb(255, 255, 255)787;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 10px #999999; /* x, y, blur, color */
+  }
+
+  
+  
+  
+  
+  main {
+    grid-column: span 12;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 24px;
+  }
+  
+  article h2 {
+    color: #d505e8;
+    border-bottom: 5px solid #d505e8;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    grid-column: span 8;
+  }
+  article img {
+    width: 100%;
+    grid-column: span 8;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    background-color: #d505e8;
+    width: 100px;
+    color: white;
+    transition: background-color 1.0s, width 2.0s, color 2.0s;
+  }
+  
+  nav a:hover {
+    background-color: #d505e8(251, 0, 255);
+    width: 200px;
+    color: black;
+  }    
+
+  h1 { font-family: 'Creepster', cursive; }
+   
+  
+  
+  footer {
+    grid-column: span 12;
+    color: white;
+    background-color: #d505e8;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+  }
