@@ -1,0 +1,100 @@
+body {
+    background-color: #999999;
+  }
+  
+  #wrapper {
+    margin: 24px auto;
+    width: 1200px;
+    border: 1px solid black;
+    padding: 24px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+  }
+  
+  header {
+    grid-column: span 12;
+    color: white;
+    background-color: #d505e8;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+  }
+   
+  .mainimg {
+    grid-column: span 8;
+    width: 100%;
+  }
+  
+  #myCarousel {
+    grid-column: span 8;
+    width: 100%;
+  }
+  #myCarousel .f-carousel__slide {
+    text-align: center;
+    padding: 24px;
+    background: #eee;
+  }
+  #myCarousel img {
+    width: 100%;
+  }
+  
+  nav {
+    grid-column: span 4;
+  }
+  
+  nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    color: white;
+    background-color: #d505e8;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+   
+    margin: 24px 0;
+    
+  }
+  nav li a:hover{
+    background-color: #8102bb;
+  }
+  nav li a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 24px;
+    display: block;
+  }
+  
+  body {
+    background-image: url("Space-Background-Image-8.jpg");
+  }
+  
+  main {
+    grid-column: span 12;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 24px;
+  }
+  
+  article h2 {
+    color: #d505e8;
+    border-bottom: 5px solid #d505e8;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+  }
+  article img {
+    width: 100%;
+  }
+  
+  footer {
+    grid-column: span 12;
+    color: white;
+    background-color: #d505e8;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+  }
